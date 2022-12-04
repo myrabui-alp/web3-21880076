@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+        "password": "Bmql8989",
+    "database": "menuDB",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "cuoiky",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ptudw",
+    "password": "Kj5xlwkphoonXhFJj36LUUgGfbvkJEWN",
+    "database": "cuoiky",
+    "host": "dpg-cdi7rjsgqg4aiiseb19g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
